@@ -145,7 +145,7 @@
                         </p>
                         <p>
                           <span class="title-s">Status: </span>
-                          <span>Fresh Graduate</span>
+                          <span>Open to Full-time and freelance opportunities</span>
                         </p>
                         <p>
                           <span class="title-s">Email: </span>
@@ -189,10 +189,10 @@
                       <h5 class="title-left">About me</h5>
                     </div>
                     <p class="lead">
-                      I’m a fresh graduate in Informatics Engineering with experience in mobile development using Flutter. Before and during my studies, i worked on projects through internships, freelance work, and full time role
-                    </p>
-                    <p class="lead">
-                      I enjoy learning new technologies, solving practical problems, and building mobile applications that are reliable and user friendly.
+                      Mobile Developer with a background in Informatics Engineering and over a year of experience across full-time, 
+                      internship, and freelance roles. I build Flutter applications with Clean Architecture and Bloc/Cubit, and specialize 
+                      in integrating computer vision and LLMs into mobile workflows. Experienced in cross-functional teams across 
+                      mobile, backend, and web.
                     </p>
                     <!-- <p class="lead">
                     For now I'm looking for a part time / freelance job ,if you need to make some applications that are needed by you. Don't hesitate to contact me 
@@ -354,7 +354,7 @@
                 <h1 style="color: white">Feel free to see my cv</h1>
               </div>
               <div class="counter-num">
-                <a href="img/cv/Hasin CV ATS.pdf" target="_blank" class="btn btn-info"
+                <a href="img/cv/Hasin_Bashari_CV.pdf" target="_blank" class="btn btn-info"
                   >Click Here</a
                 >
               </div>
@@ -380,34 +380,47 @@
         </div>
         <div class="row justify-content-center">
           <div class="col-md-4">
-            <a href="https://github.com/Gladiuzz/manga_translator">
-              <div class="work-box">
-                <div class="work-img">
-                  <img src="img/Portfolio_8.png" alt="Manga Translator" class="img-fluid" />
-                </div>
-                <div class="work-content">
-                  <div class="row">
-                    <div class="col-sm-8">
-                      <h2 class="w-title">Manga Translator</h2>
-                      <div class="w-more">
-                        <span class="w-ctegory">Mobile App</span>
-                      </div>
-                      <div style="margin-top:6px;">
-                        <span style="background:#54C5F8;color:#fff;font-size:11px;font-weight:600;padding:2px 10px;border-radius:20px;margin-right:4px;display:inline-block;">Flutter</span>
-                        <span style="background:#009688;color:#fff;font-size:11px;font-weight:600;padding:2px 10px;border-radius:20px;margin-right:4px;display:inline-block;">FastAPI</span>
-                        <span style="background:#EE4C2C;color:#fff;font-size:11px;font-weight:600;padding:2px 10px;border-radius:20px;margin-right:4px;display:inline-block;">PyTorch</span>
-                      </div>
+            <div class="work-box" style="cursor:pointer;"
+              onclick="openProjectModal(this)"
+              data-title="Manga Translator"
+              data-category="Mobile App"
+              data-image="img/Portfolio_8.png"
+              data-description="Built an end-to-end manga translation mobile app using Flutter. Developed the complete ML pipeline from scratch dataset collection, manual image labeling, and model training with Faster R-CNN, then integrated with MangaOCR for Japanese text recognition and GPT-4.1 for context-aware translation. Full pipeline processes a manga page in 5-10 seconds on mobile."
+              data-link="https://github.com/Gladiuzz/manga_translator"
+              data-link-label="View on GitHub"
+              data-tags="Flutter,FastAPI,PyTorch">
+              <div class="work-img">
+                <img src="img/Portfolio_8.png" alt="Manga Translator" class="img-fluid" />
+              </div>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-8">
+                    <h2 class="w-title">Manga Translator</h2>
+                    <div class="w-more">
+                      <span class="w-ctegory">Mobile App</span>
                     </div>
-                    <div class="col-sm-4">
-                      <div class="w-like"></div>
+                    <div style="margin-top:6px;">
+                      <span style="background:#54C5F8;color:#fff;font-size:11px;font-weight:600;padding:2px 10px;border-radius:20px;margin-right:4px;display:inline-block;">Flutter</span>
+                      <span style="background:#009688;color:#fff;font-size:11px;font-weight:600;padding:2px 10px;border-radius:20px;margin-right:4px;display:inline-block;">FastAPI</span>
+                      <span style="background:#EE4C2C;color:#fff;font-size:11px;font-weight:600;padding:2px 10px;border-radius:20px;margin-right:4px;display:inline-block;">PyTorch</span>
                     </div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div class="w-like"></div>
                   </div>
                 </div>
               </div>
-            </a>
+            </div>
           </div>
           <div class="col-md-4">
-            <div class="work-box">
+            <div class="work-box" style="cursor:pointer;"
+              onclick="openProjectModal(this)"
+              data-title="W System"
+              data-category="Mobile App"
+              data-image="img/Portfolio_9.png"
+              data-description="Built an internal HR mobile app using Flutter and Bloc. Features include GPS-based attendance check-in/out and leave request management. Integrated REST API for data sync with backend. Used internally by PM and HRD team."
+              data-link=""
+              data-tags="Flutter">
               <div class="work-img">
                 <img src="img/Portfolio_9.png" alt="W System" class="img-fluid" />
               </div>
@@ -430,7 +443,14 @@
             </div>
           </div>
           <div class="col-md-4">
-            <div class="work-box">
+            <div class="work-box" style="cursor:pointer;"
+              onclick="openProjectModal(this)"
+              data-title="Lets Go Gelato"
+              data-category="Mobile App"
+              data-image="img/Portfolio_6.png"
+              data-description="Customer-facing mobile app for a gelato brand. Features include product browsing with a visual menu, cart management, and order placement, built with Flutter for a smooth and delightful user experience."
+              data-link=""
+              data-tags="Flutter">
               <div class="work-img">
                 <img src="img/Portfolio_6.png" alt="Lets Go Gelato" class="img-fluid" />
               </div>
@@ -453,126 +473,126 @@
             </div>
           </div>
           <div class="col-md-4">
-            <a
-              href="https://cyberlabs.co.id/toko-daging-nusantara-portfolio-website-cyberlabs/"
-            >
-              <div class="work-box">
-                <!-- <a href="img/work-1.jpg" data-lightbox="gallery-mf"> -->
-                <div class="work-img">
-                  <img src="img/portofolio 1.jpeg"  class="img-fluid" />
-                </div>
-                <div class="work-content">
-                  <div class="row">
-                    <div class="col-sm-8">
-                      <h2 class="w-title">Toko Daging Nusantara</h2>
-                      <div class="w-more">
-                        <span class="w-ctegory">Web & Mobile App</span>
-                      </div>
-                      <div style="margin-top:6px;">
-                        <span style="background:#FF2D20;color:#fff;font-size:11px;font-weight:600;padding:2px 10px;border-radius:20px;margin-right:4px;display:inline-block;">Laravel</span>
-                        <span style="background:#54C5F8;color:#fff;font-size:11px;font-weight:600;padding:2px 10px;border-radius:20px;margin-right:4px;display:inline-block;">Flutter</span>
-                      </div>
+            <div class="work-box" style="cursor:pointer;"
+              onclick="openProjectModal(this)"
+              data-title="Toko Daging Nusantara"
+              data-category="Web &amp; Mobile App"
+              data-image="img/portofolio 1.jpeg"
+              data-description="Built a full-featured meat marketplace web and mobile app using Laravel and Flutter. Developed end-to-end features including branch and product management, discount system, payment, courier support, and core marketplace flows. App was actively used by real paying customers."
+              data-tags="Laravel,Flutter">
+              <div class="work-img">
+                <img src="img/portofolio 1.jpeg" class="img-fluid" />
+              </div>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-8">
+                    <h2 class="w-title">Toko Daging Nusantara</h2>
+                    <div class="w-more">
+                      <span class="w-ctegory">Web &amp; Mobile App</span>
                     </div>
-                    <div class="col-sm-4">
-                      <div class="w-like"></div>
+                    <div style="margin-top:6px;">
+                      <span style="background:#FF2D20;color:#fff;font-size:11px;font-weight:600;padding:2px 10px;border-radius:20px;margin-right:4px;display:inline-block;">Laravel</span>
+                      <span style="background:#54C5F8;color:#fff;font-size:11px;font-weight:600;padding:2px 10px;border-radius:20px;margin-right:4px;display:inline-block;">Flutter</span>
                     </div>
                   </div>
-                </div>
-                <!-- </a> -->
-              </div>
-            </a>
-          </div>
-          <div class="col-md-4">
-            <a
-              href="https://cyberlabs.co.id/ika-unpad-portfolio-aplikasi-mobile-cyberlabs/"
-            >
-              <div class="work-box">
-                <!-- <a href="img/portofolio 2.png" data-lightbox="gallery-mf"> -->
-                <div class="work-img">
-                  <img src="img/portofolio 2.png"  class="img-fluid" />
-                </div>
-                <div class="work-content">
-                  <div class="row">
-                    <div class="col-sm-8">
-                      <h2 class="w-title">Ika Unpad Apps</h2>
-                      <div class="w-more">
-                        <span class="w-ctegory">Web & Mobile App</span>
-                      </div>
-                      <div style="margin-top:6px;">
-                        <span style="background:#FF2D20;color:#fff;font-size:11px;font-weight:600;padding:2px 10px;border-radius:20px;margin-right:4px;display:inline-block;">Laravel</span>
-                        <span style="background:#54C5F8;color:#fff;font-size:11px;font-weight:600;padding:2px 10px;border-radius:20px;margin-right:4px;display:inline-block;">Flutter</span>
-                      </div>
-                    </div>
-                    <div class="col-sm-4">
-                      <div class="w-like"></div>
-                    </div>
+                  <div class="col-sm-4">
+                    <div class="w-like"></div>
                   </div>
                 </div>
-                <!-- </a> -->
               </div>
-            </a>
+            </div>
           </div>
           <div class="col-md-4">
-            <a
-              href="https://cyberlabs.co.id/hgc-halo-golf-club-portfolio-aplikasi-mobile-cyberlabs/"
-            >
-              <div class="work-box">
-                <!-- <a href="img/portofolio 3.png" data-lightbox="gallery-mf"> -->
-                <div class="work-img">
-                  <img src="img/portofolio 3.png"  class="img-fluid" />
-                </div>
-                <div class="work-content">
-                  <div class="row">
-                    <div class="col-sm-8">
-                      <h2 class="w-title">Halo Golf Club</h2>
-                      <div class="w-more">
-                        <span class="w-ctegory">Mobile App</span>
-                      </div>
-                      <div style="margin-top:6px;">
-                        <span style="background:#54C5F8;color:#fff;font-size:11px;font-weight:600;padding:2px 10px;border-radius:20px;margin-right:4px;display:inline-block;">Flutter</span>
-                      </div>
+            <div class="work-box" style="cursor:pointer;"
+              onclick="openProjectModal(this)"
+              data-title="Ika Unpad Apps"
+              data-category="Web &amp; Mobile App"
+              data-image="img/portofolio 2.png"
+              data-description="Built a web and mobile event attendance system. Web dashboard allows organizers to monitor participant status and generate QR codes. Mobile app used by event staff to scan QR codes on-site. Deployed and used at public events."
+              data-tags="Laravel,Flutter">
+              <div class="work-img">
+                <img src="img/portofolio 2.png" class="img-fluid" />
+              </div>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-8">
+                    <h2 class="w-title">Ika Unpad Apps</h2>
+                    <div class="w-more">
+                      <span class="w-ctegory">Web &amp; Mobile App</span>
                     </div>
-                    <div class="col-sm-4">
-                      <div class="w-like"></div>
+                    <div style="margin-top:6px;">
+                      <span style="background:#FF2D20;color:#fff;font-size:11px;font-weight:600;padding:2px 10px;border-radius:20px;margin-right:4px;display:inline-block;">Laravel</span>
+                      <span style="background:#54C5F8;color:#fff;font-size:11px;font-weight:600;padding:2px 10px;border-radius:20px;margin-right:4px;display:inline-block;">Flutter</span>
                     </div>
                   </div>
-                </div>
-                <!-- </a> -->
-              </div>
-            </a>
-          </div>
-          <div class="col-md-4">
-            <a
-              href="https://cyberlabs.co.id/pelita-bunda-portfolio-website-cyberlabs/"
-            >
-              <div class="work-box">
-                <!-- <a href="img/portofolio 4.jpeg" data-lightbox="gallery-mf"> -->
-                <div class="work-img">
-                  <img src="img/portofolio 4.jpeg"  class="img-fluid" />
-                </div>
-                <div class="work-content">
-                  <div class="row">
-                    <div class="col-sm-8">
-                      <h2 class="w-title">Pelita Bunda</h2>
-                      <div class="w-more">
-                        <span class="w-ctegory">Web App</span>
-                      </div>
-                      <div style="margin-top:6px;">
-                        <span style="background:#FF2D20;color:#fff;font-size:11px;font-weight:600;padding:2px 10px;border-radius:20px;margin-right:4px;display:inline-block;">Laravel</span>
-                      </div>
-                    </div>
-                    <div class="col-sm-4">
-                      <div class="w-like"></div>
-                    </div>
+                  <div class="col-sm-4">
+                    <div class="w-like"></div>
                   </div>
                 </div>
-                <!-- </a> -->
               </div>
-            </a>
+            </div>
           </div>
           <div class="col-md-4">
+            <div class="work-box" style="cursor:pointer;"
+              onclick="openProjectModal(this)"
+              data-title="Halo Golf Club"
+              data-category="Mobile App"
+              data-image="img/portofolio 3.png"
+              data-description="Built a golf mobile app using Flutter with features including stroke tracking per course and tournament payment."
+              data-tags="Flutter">
+              <div class="work-img">
+                <img src="img/portofolio 3.png" class="img-fluid" />
+              </div>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-8">
+                    <h2 class="w-title">Halo Golf Club</h2>
+                    <div class="w-more">
+                      <span class="w-ctegory">Mobile App</span>
+                    </div>
+                    <div style="margin-top:6px;">
+                      <span style="background:#54C5F8;color:#fff;font-size:11px;font-weight:600;padding:2px 10px;border-radius:20px;margin-right:4px;display:inline-block;">Flutter</span>
+                    </div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div class="w-like"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="work-box" style="cursor:pointer;"
+              onclick="openProjectModal(this)"
+              data-title="Pelita Bunda"
+              data-category="Web App"
+              data-image="img/portofolio 4.jpeg"
+              data-description="Contributed to the outlet management module of a gelato business app built with Flutter. Worked on branch and admin management, stock opname for production and outlets, and gelato pan/tray registration system."
+              data-tags="Laravel">
+              <div class="work-img">
+                <img src="img/portofolio 4.jpeg" class="img-fluid" />
+              </div>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-8">
+                    <h2 class="w-title">Pelita Bunda</h2>
+                    <div class="w-more">
+                      <span class="w-ctegory">Web App</span>
+                    </div>
+                    <div style="margin-top:6px;">
+                      <span style="background:#FF2D20;color:#fff;font-size:11px;font-weight:600;padding:2px 10px;border-radius:20px;margin-right:4px;display:inline-block;">Laravel</span>
+                    </div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div class="w-like"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- <div class="col-md-4">
             <div class="work-box">
-              <!-- <a href="img/portofolio_5.jpg" data-lightbox="gallery-mf"> -->
+              <a href="img/portofolio_5.jpg" data-lightbox="gallery-mf">
               <div class="work-img">
                 <img src="img/deact_img.png"  class="img-fluid" />
               </div>
@@ -592,9 +612,9 @@
                   </div>
                 </div>
               </div>
-              <!-- </a> -->
+              </a>
             </div>
-          </div>
+          </div> -->
           <!-- <div class="col-md-4">
           <a href="https://github.com/Gladiuzz/airplane">
             <div class="work-box">
@@ -826,6 +846,37 @@
       </div>
     </footer>
 
+    <!-- Project Detail Modal -->
+    <div class="modal fade" id="projectModal" tabindex="-1" role="dialog" aria-labelledby="projectModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+        <div class="modal-content" style="background:#1a1a2e;border:1px solid rgba(255,255,255,0.15);border-radius:16px;overflow:hidden;">
+          <div class="modal-header" style="border-bottom:1px solid rgba(255,255,255,0.1);padding:20px 28px 16px;">
+            <div>
+              <span id="modalCategory" style="display:inline-block;background:#1a73e8;color:#fff;font-size:11px;font-weight:700;letter-spacing:1.2px;padding:3px 12px;border-radius:20px;text-transform:uppercase;margin-bottom:8px;"></span>
+              <h4 class="modal-title" id="projectModalLabel" style="color:#fff;font-weight:700;margin:0;"></h4>
+            </div>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="color:#fff;opacity:0.7;font-size:24px;padding:0;margin:0;">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body" style="padding:0;">
+            <div style="background:#0f0f1a;max-height:320px;overflow:hidden;display:flex;align-items:center;justify-content:center;">
+              <img id="modalImage" src="" alt="" style="width:100%;max-height:320px;object-fit:contain;" />
+            </div>
+            <div style="padding:24px 28px;">
+              <div id="modalTags" style="margin-bottom:16px;"></div>
+              <p id="modalDescription" style="color:rgba(255,255,255,0.75);font-size:15px;line-height:1.7;margin:0;"></p>
+            </div>
+          </div>
+          <div class="modal-footer" style="border-top:1px solid rgba(255,255,255,0.1);padding:16px 28px;justify-content:flex-start;">
+            <a id="modalLink" href="#" target="_blank" class="btn btn-primary" style="border-radius:8px;font-weight:600;padding:8px 24px;"></a>
+            <button type="button" class="btn btn-secondary" data-dismiss="modal" style="border-radius:8px;font-weight:600;padding:8px 24px;background:rgba(255,255,255,0.1);border:none;">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Project Detail Modal -->
+
     <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
     <!-- <div id="preloader"></div> -->
 
@@ -845,5 +896,46 @@
 
     <!-- Template Main Javascript File -->
     <script src="js/main.js"></script>
+
+    <script>
+      var tagColors = {
+        'Flutter': '#54C5F8', 'FastAPI': '#009688', 'PyTorch': '#EE4C2C',
+        'Laravel': '#FF2D20', 'Node.js': '#68A063', 'React': '#61DAFB',
+        'Python': '#3776AB', 'PHP': '#777BB4'
+      };
+
+      function openProjectModal(el) {
+        var title = el.getAttribute('data-title');
+        var category = el.getAttribute('data-category');
+        var image = el.getAttribute('data-image');
+        var description = el.getAttribute('data-description');
+        var link = el.getAttribute('data-link');
+        var linkLabel = el.getAttribute('data-link-label') || 'View Project';
+        var tags = (el.getAttribute('data-tags') || '').split(',').filter(Boolean);
+
+        document.getElementById('projectModalLabel').textContent = title;
+        document.getElementById('modalCategory').textContent = category;
+        document.getElementById('modalImage').src = image;
+        document.getElementById('modalImage').alt = title;
+        document.getElementById('modalDescription').textContent = description;
+
+        var tagsHtml = tags.map(function(tag) {
+          var color = tagColors[tag] || '#555';
+          return '<span style="background:' + color + ';color:#fff;font-size:11px;font-weight:600;padding:2px 10px;border-radius:20px;margin-right:4px;display:inline-block;">' + tag + '</span>';
+        }).join('');
+        document.getElementById('modalTags').innerHTML = tagsHtml;
+
+        var linkEl = document.getElementById('modalLink');
+        if (link) {
+          linkEl.href = link;
+          linkEl.textContent = linkLabel;
+          linkEl.style.display = 'inline-block';
+        } else {
+          linkEl.style.display = 'none';
+        }
+
+        $('#projectModal').modal('show');
+      }
+    </script>
   </body>
 </html>
