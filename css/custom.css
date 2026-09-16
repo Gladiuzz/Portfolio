@@ -75,3 +75,7 @@
   background-color: #0078ff;
   flex-shrink: 0;
 }
+
+#skill {
+  padding-bottom: 3.5rem;
+}
